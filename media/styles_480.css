@@ -1,0 +1,33 @@
+@media only screen and (max-width: 550px) {
+  .owl-carousel {
+    max-width: 700px;
+  }
+  .owl-carousel .item {
+    min-height: 500px;
+  }
+  .owl-carousel .item_img {
+    max-width: 250px;
+    height: 250px;
+  }
+  .owl-carousel .item_text h3 {
+    font-size: 35px;
+  }
+  .owl-carousel .item_text .work {
+    font-size: 15px;
+  }
+  .owl-carousel .item_text p {
+    font-size: 14px;
+  }
+  footer span {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .menu ul li a {
+    margin: 20px 40px 0;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=styles_480.css.map */
