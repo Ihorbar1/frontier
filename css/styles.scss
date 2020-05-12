@@ -2,7 +2,7 @@
 //    margin: 0;
 //    padding: 0;
 // }
-.main_h2{
+.main_h2 {
 	display: block;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #000;
@@ -10,7 +10,8 @@
 	font-size: 50px;
 	color: #000;
 }
-a{
+
+a {
 	// outline: none;
 }
 
@@ -38,6 +39,7 @@ header {
 	// height: 100px;
 	// background-color: red;
 }
+
 .logo_menu {
 	display: none;
 }
@@ -56,7 +58,7 @@ header {
 			position: relative;
 			display: inline-block;
 
-			> a {
+			>a {
 				box-sizing: border-box;
 				display: block;
 				// width: 145px;
@@ -130,10 +132,19 @@ header {
 	transform: rotate(-45deg);
 }
 
+.video {
+	position: absolute;
+	top: 0;
+	// width: 100%;
+	// height: 100vh;
+	z-index: -1;
+}
+
 .main {
 	height: 100vh;
 	margin-bottom: 200px;
 	object-fit: cover;
+
 	// background-attachment: fixed;
 	.main_content {
 		width: 100%;
@@ -150,6 +161,7 @@ header {
 			text-transform: uppercase;
 			text-shadow: 4px 5px 2px #000000;
 		}
+
 		p {
 			margin-top: 10px;
 			font-size: 18px;
@@ -196,6 +208,7 @@ header {
 				object-fit: cover;
 			}
 		}
+
 		&_text {
 			box-sizing: border-box;
 			width: 60%;
@@ -208,12 +221,14 @@ header {
 				// text-align: center;
 				margin-bottom: 10px;
 			}
+
 			.work {
 				// display: inline-block;
 				font-size: 18px;
 				// text-align: center;
 				color: #575656;
 				margin-bottom: 35px;
+
 				&::before {
 					content: "";
 					position: relative;
@@ -247,8 +262,9 @@ header {
 		left: -50px;
 		outline: none;
 		font-size: 30px;
+
 		// object-fit: cover;
-		img{
+		img {
 			width: 100%;
 			height: 100%;
 		}
@@ -262,7 +278,7 @@ header {
 		right: -40px;
 		outline: none;
 
-		img{
+		img {
 			width: 100%;
 			height: 100%;
 		}
@@ -272,20 +288,22 @@ header {
 		display: flex;
 		justify-content: center;
 		margin: 0 auto;
+
 		.owl-dot {
 			// width: 20px;
 			// height: 20px;
 			outline: none;
-					span {
-						display: block;
-						width: 11px;
-						height: 11px;
-						margin: 10px;
-						border-radius: 50%;
-						// padding: 5px;
-						border: 2px solid #212024;
-						// background-color: #212024;
-					}
+
+			span {
+				display: block;
+				width: 11px;
+				height: 11px;
+				margin: 10px;
+				border-radius: 50%;
+				// padding: 5px;
+				border: 2px solid #212024;
+				// background-color: #212024;
+			}
 		}
 
 		.active {
@@ -299,23 +317,23 @@ header {
 }
 
 
-.contact{
+.contact {
 	display: flex;
 	height: 500px;
 
-	.map{
+	.map {
 		width: 100%;
 		height: 100%;
 		background-color: #963131;
 
-		img{
+		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 		}
 	}
 
-	.info{
+	.info {
 		display: flex;
 		flex-direction: column;
 		// justify-content: center;
@@ -325,8 +343,8 @@ header {
 		background-color: #414144;
 		color: #fff;
 		font-size: 25px;
-		
-		h2{
+
+		h2 {
 			display: inline-block;
 			padding-top: 20px;
 			padding-bottom: 20px;
@@ -335,17 +353,18 @@ header {
 			text-align: center;
 		}
 
-		.wrap{
+		.wrap {
 			display: inline-block;
 			// text-align: center;
 			// margin: 0 auto;
 			padding: 20px 40px 40px 50px;
 		}
-		p{
+
+		p {
 			margin: 40px 0;
 		}
 
-		a{
+		a {
 			// display: block;
 			text-decoration: none;
 			text-align: center;
@@ -362,7 +381,7 @@ header {
 			border-radius: 10px;
 			transition: all 0.6s;
 
-			&:hover{
+			&:hover {
 				background-color: rgb(0, 0, 0);
 				color: #fff;
 			}
@@ -372,14 +391,14 @@ header {
 
 
 
-footer{
+footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 50px;
 	background-color: rgb(94, 91, 91);
 
-	span{
+	span {
 		font-size: 25px;
 		color: white;
 	}

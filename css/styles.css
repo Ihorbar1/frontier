@@ -110,6 +110,12 @@ header {
           transform: rotate(-45deg);
 }
 
+.video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
 .main {
   height: 100vh;
   margin-bottom: 200px;

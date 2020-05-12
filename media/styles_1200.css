@@ -1,32 +1,21 @@
 @media only screen and (max-width: 1200px) {
   header {
     width: calc(100vw - 120px);
-    padding: 10px 60px 10px;
-  }
+    padding: 10px 60px 10px; }
   .logo {
-    width: 200px;
-  }
+    width: 200px; }
   .menu ul li a {
     margin: 10px 10px 0;
-    font-size: 14px;
-  }
+    font-size: 14px; }
   .owl-carousel {
-    max-width: 900px;
-  }
-  .owl-carousel .item {
-    height: 600px;
-  }
-  .owl-carousel .item_img {
-    width: 40%;
-  }
-  .owl-carousel .item_text h3 {
-    font-size: 35px;
-  }
-  .owl-carousel .item_text .work {
-    font-size: 16px;
-  }
-  .owl-carousel .item_text p {
-    font-size: 19px;
-  }
-}
-/*# sourceMappingURL=styles_1200.css.map */
+    max-width: 900px; }
+    .owl-carousel .item {
+      height: 600px; }
+      .owl-carousel .item_img {
+        width: 40%; }
+      .owl-carousel .item_text h3 {
+        font-size: 35px; }
+      .owl-carousel .item_text .work {
+        font-size: 16px; }
+      .owl-carousel .item_text p {
+        font-size: 19px; } }
